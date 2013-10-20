@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  database: BStorm_development
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: BStorm_test
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: BStorm_production
+  pool: 5
+  username: postgres
+  password: postgres
